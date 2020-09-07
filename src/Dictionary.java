@@ -21,7 +21,7 @@ public class Dictionary {
         int length;
         int i;
 
-        //String capitalizeWords;
+        String wors;
 
         System.out.println("Please enter the number of words you want to add: ");
         length = scanner.nextInt();
@@ -34,8 +34,6 @@ public class Dictionary {
         for (i = 0; i < length; i++) {
             System.out.println("Please enter word #" + (i + 1));
             words[i] = scanner.nextLine(); //collects input data from user
-
-
         }
         scanner.close();
 
@@ -59,6 +57,8 @@ public class Dictionary {
         System.out.println("Reverse Alphabetical Order: ");
         System.out.println("--------------------------------");
         System.out.println(Arrays.toString(words));
+
+
 
 
 
